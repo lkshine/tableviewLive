@@ -15,6 +15,9 @@
 		B401EF8F1D12742C0058DB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B401EF8D1D12742C0058DB17 /* LaunchScreen.storyboard */; };
 		B401EF9A1D12742C0058DB17 /* tableviewLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B401EF991D12742C0058DB17 /* tableviewLiveTests.m */; };
 		B401EFA51D12742C0058DB17 /* tableviewLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B401EFA41D12742C0058DB17 /* tableviewLiveUITests.m */; };
+		B401EFB71D1275970058DB17 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B401EFB61D1275970058DB17 /* MyCell.m */; };
+		B401EFC11D12B66C0058DB17 /* OtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B401EFC01D12B66C0058DB17 /* OtherCell.m */; };
+		B401EFC91D12D4D00058DB17 /* LKTableSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = B401EFC81D12D4D00058DB17 /* LKTableSplitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B401EFA01D12742C0058DB17 /* tableviewLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B401EFA41D12742C0058DB17 /* tableviewLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewLiveUITests.m; sourceTree = "<group>"; };
 		B401EFA61D12742C0058DB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B401EFB51D1275970058DB17 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		B401EFB61D1275970058DB17 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		B401EFBF1D12B66C0058DB17 /* OtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCell.h; sourceTree = "<group>"; };
+		B401EFC01D12B66C0058DB17 /* OtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCell.m; sourceTree = "<group>"; };
+		B401EFC71D12D4D00058DB17 /* LKTableSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTableSplitter.h; sourceTree = "<group>"; };
+		B401EFC81D12D4D00058DB17 /* LKTableSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKTableSplitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				B401EF831D12742C0058DB17 /* AppDelegate.m */,
 				B401EF851D12742C0058DB17 /* ViewController.h */,
 				B401EF861D12742C0058DB17 /* ViewController.m */,
+				B401EFC71D12D4D00058DB17 /* LKTableSplitter.h */,
+				B401EFC81D12D4D00058DB17 /* LKTableSplitter.m */,
+				B401EFB51D1275970058DB17 /* MyCell.h */,
+				B401EFB61D1275970058DB17 /* MyCell.m */,
+				B401EFBF1D12B66C0058DB17 /* OtherCell.h */,
+				B401EFC01D12B66C0058DB17 /* OtherCell.m */,
 				B401EF881D12742C0058DB17 /* Main.storyboard */,
 				B401EF8B1D12742C0058DB17 /* Assets.xcassets */,
 				B401EF8D1D12742C0058DB17 /* LaunchScreen.storyboard */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B401EFC11D12B66C0058DB17 /* OtherCell.m in Sources */,
+				B401EFC91D12D4D00058DB17 /* LKTableSplitter.m in Sources */,
 				B401EF871D12742C0058DB17 /* ViewController.m in Sources */,
 				B401EF841D12742C0058DB17 /* AppDelegate.m in Sources */,
+				B401EFB71D1275970058DB17 /* MyCell.m in Sources */,
 				B401EF811D12742C0058DB17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
